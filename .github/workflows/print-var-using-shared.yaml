@@ -1,0 +1,8 @@
+on:
+    push
+    
+jobs:
+  print-var:
+    uses: ameer-muhammednazar/github-env-test/.github/workflows/test-reusable-workflow.yaml
+    with:
+      environment: development

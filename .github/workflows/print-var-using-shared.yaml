@@ -3,6 +3,6 @@ on:
     
 jobs:
   print-var:
-    uses: ameer-muhammednazar/github-env-test/.github/workflows/test-reusable-workflow.yaml
+    uses: ameer-muhammednazar/github-env-test/.github/workflows/test-reusable-workflow.yaml@main
     with:
       environment: development
